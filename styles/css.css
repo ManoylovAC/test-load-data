@@ -1,0 +1,37 @@
+.container {
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.data-result {
+    margin-top: 15px;
+}
+
+.active-btn {
+    color: #2b2b2b;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: darkseagreen;
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    transition: background .3s ease-in-out;
+    outline: none;
+    cursor: pointer;
+}
+.active-btn:hover {
+    background: #79a579;
+}
+
+.item__title {
+    display: inline-block;
+    background: lightgrey;
+    width: 150px;
+    padding: 7px 0;
+    border-radius: 3px;
+}
+
+.item + .item{
+    margin-top: 3px;
+}
